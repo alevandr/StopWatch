@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextWriter">
+      <UniqueIdentifier>{c36a790a-429a-4896-aa62-aac6c49b35b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{7b736cbb-ee1f-48a7-accb-78fa543b6f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GitController">
+      <UniqueIdentifier>{9b1f61cd-ba4c-42ea-9ec0-d08f85c994d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimeSpan">
+      <UniqueIdentifier>{c4bccc7c-8bf9-4abc-b2ef-8134b8c6fe9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GitController.cpp">
+      <Filter>GitController</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWriter.cpp">
+      <Filter>TextWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSpan.cpp">
+      <Filter>TimeSpan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configuration.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="GitController.h">
+      <Filter>GitController</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWriter.h">
+      <Filter>TextWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpan.h">
+      <Filter>TimeSpan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

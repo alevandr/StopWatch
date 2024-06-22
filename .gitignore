@@ -1,0 +1,13 @@
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+.vs/
+Debug/
+Release/
+CodeAnalyst/
+ipch/
+testRepo/
+json.hpp
+configuration.json
